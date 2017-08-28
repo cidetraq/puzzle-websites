@@ -3,9 +3,52 @@
     <head>
         <title>Puzzle 1</title>
         <link href="puzzle1Style.css" type="text/css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     </head>
     <body>
-        Text here
-        <a href="puzzle2/puzzle2.html">Puzzle 2</a>
-    </body>
+        <div class="container-fluid">
+            <div class="container">    
+                <div class="jumbotron text-center" id="Question">
+                    <div class="row">
+                        <div class="col col-xs-4">
+                                <span class="fa fa-user-md" aria-hidden="true"></span>
+                        </div>
+
+                        <div class="col-xs-4">   
+                        <h1>Puzzle 1</h1><br>
+                        </div>
+
+                        <div class="col-xs-4">
+                                <i class="fa fa-user-md" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                        <h3>What do you eat every day to keep a doctor away?</h3>
+                </div>
+            </div>
+            <div class="slider-holder">
+                <span id="slider-image-1"></span>
+                <span id="slider-image-2"></span>
+                <span id="slider-image-3"></span>
+                <div class="image-holder">
+                    <div class="slider-image">
+                    <img src="images/orange.jpg"/>
+                    </div>
+                    <div class="slider-image">
+                    <img src="images/wrench.jpg"/>
+                    </div>
+                    <div class="slider-image">
+                    <a href="puzzle2.html"><img src= "images/apple.jpg"/></a>
+                    </div>
+                </div>
+                <div class="button-holder">
+                        <a href="#slider-image-1" class="slider-change"></a>
+                        <a href="#slider-image-2" class="slider-change"></a>
+                        <a href="#slider-image-3" class="slider-change"></a>
+                </div>
+            
+            </div>
+        </body>      
 </html>
+
+<script src="https://use.fontawesome.com/c91c777efd.js"></script>

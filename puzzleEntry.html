@@ -2,18 +2,23 @@
 <html>
     <head>
         <title>Puzzle Website</title>
-        <link href="style.css" type="text/css" rel="stylesheet">
+        <link href="puzzleEntryStyle.css" type="text/css" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        
         
 
 
 
 
     </head>
-    <body>
+  
+    <body id="body">
+        <canvas id="c"></canvas>
+        <script type="text/javascript" src="script.js"></script>
         <div class="container-fluid">
             <div class="jumbotron text-center" id="description">
+              
                 <h1>Welcome to the puzzle website!</h1><br/>
                 <p>  Here you will find challenging puzzles demanding your wit and vigor to complete.
                     You will need to click hard-to-find links to advance to each new puzzle. Good luck!
@@ -23,12 +28,20 @@
             <a href="puzzle1.html" class="center-block" style="text-decoration:none">
                     <div id="big-button">
                         <div id="big-btn-text" class="text-center" > <h3><strong>Puzzle 1</strong></h3>
+                          
                         </div> 
+                      
                     </div>
-            </a>
-            <div class="jumbotron" id="created-by">
-                <p>Created by Nicholas Randall</p>
-            </div>
+              </a>
+              
+            
+         
+            <footer id="created-by">
+                <h3>Created by <a href="http://nicholasarandall.me">Nicholas Randall</h3></a>
+              <h6>Matrix animation by <a href="http://thecodeplayer.com/walkthrough/matrix-rain-animation-html5-canvas-javascript">The Code Player</a></h6>
+            </footer>
         </div>
+       
     </body>
+      
 </html>
